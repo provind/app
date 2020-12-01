@@ -1,0 +1,30 @@
+{
+    "recommendations": [
+      "ms-azuretools.vscode-docker",
+      "ms-kubernetes-tools.vscode-kubernetes-tools",
+      "github.vscode-pull-request-github",
+      "github.github-vscode-theme",
+      "ms-python.python",
+      "ms-python.vscode-pylance",
+      "redhat.vscode-yaml",
+      "vscoss.vscode-ansible",
+      "felixrieseberg.vsc-travis-ci-status",
+      "editorconfig.editorconfig",
+      "dbaeumer.vscode-eslint",
+      "christian-kohler.path-intellisense",
+      "christian-kohler.npm-intellisense",
+      "msjsdiag.debugger-for-chrome",
+      "eg2.vscode-npm-script",
+      "humao.rest-client",
+      "octref.vetur",
+      "davidanson.vscode-markdownlint",
+      "antfu.i18n-ally",
+      "gruntfuggly.todo-tree",
+      "wix.vscode-import-cost",
+      "thekalinga.bootstrap4-vscode",
+      "mrmlnc.vscode-autoprefixer",
+      "mgmcdermott.vscode-language-babel",
+      "esbenp.prettier-vscode",
+      "mrmlnc.vscode-scss"
+    ]
+}

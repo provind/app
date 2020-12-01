@@ -1,0 +1,41 @@
+{
+  "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.formatting.provider": "black",
+    "python.languageServer": "Pylance",
+    "python.linting.prospectorEnabled": true,
+    "python.linting.pycodestyleEnabled": true,
+    "python.analysis.autoSearchPaths": false,
+    "terminal.integrated.env.linux": {
+        "PIPENV_VENV_IN_PROJECT": "1",
+        "POETRY_VIRTUALENVS_IN_PROJECT": "1",
+        "PIP_NO_CACHE_DIR": "1"
+      },
+      "terminal.integrated.env.windows": {
+        "PIPENV_VENV_IN_PROJECT": "1",
+        "POETRY_VIRTUALENVS_IN_PROJECT": "1",
+        "PIP_NO_CACHE_DIR": "1"
+      },
+      "python.linting.mypyArgs": [
+        "--follow-imports=normal",
+        "--show-column-numbers",
+        "--strict"
+      ],
+      "python.linting.mypyEnabled": true,
+      "python.sortImports.path": "isort --profile black",
+      "python.linting.pydocstyleEnabled": true,
+      "editor.rulers": [
+        80,
+        120
+      ],
+      "editor.minimap.enabled": false,
+      "python.testing.pytestArgs": [
+        "tests"
+      ],
+      "python.testing.unittestEnabled": false,
+      "python.testing.nosetestsEnabled": false,
+      "python.testing.pytestEnabled": true,
+      "githubIssues.ignoreCompletionTrigger": [
+        "makefile"
+      ]
+}

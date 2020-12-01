@@ -1,0 +1,49 @@
+# These settings are synced to GitHub by https://probot.github.io/apps/settings/
+repository:
+  name: app
+
+  description: Aplicacion para PROVIND SRL
+
+  homepage: https://github.com/provind/app
+
+  topics: provind
+
+  private: false
+
+  has_issues: true
+
+  has_projects: true
+
+  has_wiki: false
+
+  has_downloads: true
+
+  default_branch: develop
+
+  allow_squash_merge: true
+
+  allow_merge_commit: true
+
+  allow_rebase_merge: true
+
+# Labels: define labels for Issues and Pull Requests
+labels:
+  - name: bug
+    color: '#CC0000'
+    description: Errores
+
+  - name: feature
+    # If including a `#`, make sure to wrap it with quotes!
+    color: '#336699'
+    description: Nueva caracteristica.
+
+  - name: first-timers-only
+    # include the old name to rename an existing label
+    oldname: Help Wanted
+
+# Milestones: define milestones for Issues and Pull Requests
+milestones:
+  - title: 1.0.0
+    description: Primer version estable
+    # The state of the milestone. Either `open` or `closed`
+    state: open

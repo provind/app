@@ -1,0 +1,32 @@
+# See https://pre-commit.com for more information
+# See https://pre-commit.com/hooks.html for more hooks
+# black, isort,
+repos:
+  - repo: https://github.com/tox-dev/tox-ini-fmt
+    rev: 0.5.0
+    hooks:
+      - id: tox-ini-fmt
+  - repo: https://github.com/pre-commit/pre-commit-hooks
+    rev: v3.3.0
+    hooks:
+      - id: check-ast
+      - id: check-builtin-literals
+      - id: check-docstring-first
+      - id: check-merge-conflict
+      - id: check-yaml
+      - id: check-toml
+      - id: debug-statements
+      - id: end-of-file-fixer
+      - id: trailing-whitespace
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.6.4
+    hooks:
+      - id: isort
+        files: 'src/.*'
+      - id: isort
+        files: 'tests/.*'
+  - repo: https://github.com/psf/black
+    rev: 20.8b1
+    hooks:
+      - id: black
+        language_version: python3
